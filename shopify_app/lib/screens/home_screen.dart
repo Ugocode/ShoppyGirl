@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:shopify_app/GetXPackage/Controllers/product_controllers.dart';
 import 'package:get/get.dart';
+import 'package:shopify_app/screens/cart_screen.dart';
 import 'package:shopify_app/screens/product_details.dart';
 import 'package:shopify_app/widgets/products_tile.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
@@ -35,7 +36,9 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(() => const CartScreen());
+                },
                 icon: const Icon(Icons.shopping_cart),
                 color: Colors.pink,
               )

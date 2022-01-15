@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'ShopiFy App',
+      title: 'ShoppyGirl App',
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),

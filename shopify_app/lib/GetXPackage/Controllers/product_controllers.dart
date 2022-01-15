@@ -9,6 +9,8 @@ class ProductController extends GetxController {
 
   var productList = <Product>[].obs;
 
+  var cartList = [].obs;
+
   //to get new products on initialization:
   @override
   void onInit() {
@@ -20,7 +22,7 @@ class ProductController extends GetxController {
     try {
       isLoading(true);
       var products = await RemoteServices.fetchProducts();
-      //after we have fetched th products:
+      //after we have fetched the products:
       if (products != null) {
         productList.value = products;
       }
