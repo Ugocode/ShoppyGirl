@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'ShoppyGirl App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.pink,
       ),
