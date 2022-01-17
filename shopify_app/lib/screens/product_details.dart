@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shopify_app/model/products_model.dart';
+import 'package:shopify_app/screens/home_screen.dart';
 
 class ProductDetails extends StatelessWidget {
   final Product product;
@@ -95,7 +97,12 @@ class ProductDetails extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: ElevatedButton(
-                    onPressed: () {}, child: const Text('Add to Cart')),
+                    onPressed: () {
+                      Get.to(() => HomeScreen());
+                    },
+                    child: const Text('Add to Cart',
+                        style: TextStyle(
+                            fontSize: 16, fontWeight: FontWeight.bold))),
               )
             ],
           ),
