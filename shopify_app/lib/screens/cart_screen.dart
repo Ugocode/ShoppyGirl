@@ -28,13 +28,12 @@ class _CartScreenState extends State<CartScreen> {
               child: Card(
                 elevation: 2,
                 shadowColor: Colors.grey,
-                // shape: const ShapeBorder(),
-                child: Container(
-                  height: 150,
-                  width: 250,
-                  decoration: BoxDecoration(
-                      color: Colors.pink,
-                      borderRadius: BorderRadius.circular(20)),
+                color: Colors.pink,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -67,5 +66,9 @@ class _CartScreenState extends State<CartScreen> {
         ),
       ),
     );
+  }
+
+  Container noItemInCart() {
+    return Container();
   }
 }
