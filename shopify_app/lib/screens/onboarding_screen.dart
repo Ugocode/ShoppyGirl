@@ -16,7 +16,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
   final List<OnBoardModel> onBoardData = [
     const OnBoardModel(
-      title: "Set your own goals and get better",
+      title: "We are the Biggest Cosmetics store on the web",
       description:
           "Goal support your motivation and inspire you to work harder",
       imgUrl: "assets/images/weight.png",

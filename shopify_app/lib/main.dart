@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowMaterialGrid: false,
       title: 'ShoppyGirl App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
