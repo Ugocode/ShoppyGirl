@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
           ),
           const Center(
             child: Text(
-              "Welcome Home Beautiful",
+              "Welcome Home Beautiful..",
               style: TextStyle(color: Colors.purple),
             ),
           ),
