@@ -15,6 +15,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.pink[100],
       body: SafeArea(
         child: Column(children: [
           Row(
@@ -49,8 +50,9 @@ class HomeScreen extends StatelessWidget {
           ),
           const Center(
             child: Text(
-              "Welcome Home Beautiful..",
-              style: TextStyle(color: Colors.purple),
+              "Welcome home beautiful..",
+              style:
+                  TextStyle(color: Colors.purple, fontStyle: FontStyle.italic),
             ),
           ),
           const SizedBox(
