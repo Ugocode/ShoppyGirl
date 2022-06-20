@@ -92,7 +92,7 @@ class ProductDetails extends StatelessWidget {
               // const SizedBox(
               //   height: 20,
               // ),
-              const Spacer(),
+              //   const Spacer(),
 
               Padding(
                 padding: const EdgeInsets.all(12.0),
