@@ -16,6 +16,8 @@ class RemoteServices {
       return productFromJson(jsonString);
     } else {
       //show error message
+      // ignore: avoid_print
+      print(Error());
     }
     return null;
   }

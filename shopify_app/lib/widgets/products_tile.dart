@@ -45,12 +45,17 @@ class ProductTile extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.only(right: 4.0),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(product.brand!),
                         const SizedBox(
                           width: 50,
                         ),
-                        Text('\$${product.price!}'),
+                        Text(
+                          '\$${product.price!}',
+                          style: const TextStyle(
+                              fontSize: 12, fontWeight: FontWeight.bold),
+                        ),
                       ],
                     ),
                   ),
