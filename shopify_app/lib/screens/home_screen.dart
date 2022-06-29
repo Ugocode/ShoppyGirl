@@ -115,7 +115,7 @@ class HomeScreen extends StatelessWidget {
             height: 20,
           ),
           const Center(
-            child: Text("hello world"),
+            child: Text("Products"),
           ),
           const SizedBox(
             height: 15,
