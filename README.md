@@ -1,5 +1,5 @@
 # ShoppyGirl
-A makeup shopping store for luxury items at affordable rate
+A makeup shopping store for luxury items at affordable prices
 
 What the app looks like:
 
